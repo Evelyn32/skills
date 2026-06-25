@@ -1,0 +1,68 @@
+# --- 操作系统文件 ---
+.DS_Store       # macOS 文件夹自定义图标和属性
+Thumbs.db       # Windows 图片缩略图缓存
+Desktop.ini     # Windows 文件夹自定义设置
+ehthumbs.db     # Windows 视频缩略图缓存
+*.swp           # Vi/Vim 交换文件
+*.swo           # Vi/Vim 交换文件
+
+# --- IDE / 编辑器 ---
+.vscode/        # VS Code 工作区设置（个人偏好，不应提交）
+.idea/          # JetBrains 系列 IDE（IntelliJ, WebStorm 等）
+*.sublime-project  # Sublime Text 项目文件
+*.sublime-workspace # Sublime Text 工作区
+*.suo           # Visual Studio 用户选项
+*.user          # Visual Studio 用户设置
+*.userosscache  # Visual Studio 用户缓存
+.vs/            # Visual Studio 本地设置
+
+# --- 依赖包 / 构建输出 ---
+node_modules/   # npm/yarn/pnpm 依赖包（体积大，可恢复）
+vendor/         # Composer (PHP) 依赖
+bower_components/ # Bower 前端依赖
+build/          # 构建输出目录
+dist/           # 打包/分发目录
+target/         # Maven/Gradle 构建输出
+bin/            # 编译输出
+obj/            # .NET 编译输出
+*.o             # C/C++ 目标文件
+*.class         # Java 编译字节码
+*.pyc           # Python 编译缓存
+__pycache__/    # Python 缓存目录
+*.egg-info/     # Python 包信息
+.eggs/          # Python 鸡蛋包
+
+# --- 环境变量与密钥 ---
+.env            # 环境变量（可能含密钥/Token/密码）
+.env.local      # 本地环境变量
+.env.*.local    # 本地环境变量（如 .env.development.local）
+*.key           # 私钥文件
+*.pem           # 证书/密钥文件
+*.cert          # 证书文件
+credentials     # 凭据文件
+
+# --- 日志与临时文件 ---
+*.log           # 日志文件
+logs/           # 日志目录
+tmp/            # 临时文件
+temp/           # 临时文件
+*.tmp           # 临时文件
+*.temp          # 临时文件
+
+# --- 包锁文件（部分场景需保留，放在仓库根目录跟踪版本） ---
+# package-lock.json  # 通常应提交，但大型 monorepo 可考虑忽略
+# yarn.lock          # 通常应提交
+# Cargo.lock         # Rust 通常应提交
+
+# --- TypeScript / JavaScript ---
+*.tsbuildinfo   # TypeScript 构建信息缓存
+.eslintcache    # ESLint 缓存
+*.tsc-tmp/      # TypeScript 临时文件
+
+# --- Docker ---
+.dockerignore   # Docker 忽略（但通常应提交此文件本身）
+
+# --- 其它 -- *
+*.bak           # 备份文件
+*.orig          # 合并冲突备份
+*~              # 编辑器自动备份（如 Emacs）
