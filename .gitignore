@@ -66,3 +66,8 @@ temp/           # 临时文件
 *.bak           # 备份文件
 *.orig          # 合并冲突备份
 *~              # 编辑器自动备份（如 Emacs）
+
+# --- 评测输出 ---
+questionnaire-generator-workspace/
+review.html
+questionnaire-generator/index-1.html
