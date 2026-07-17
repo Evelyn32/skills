@@ -69,5 +69,10 @@ temp/           # 临时文件
 
 # --- 评测输出 ---
 questionnaire-generator-workspace/
+interview-guide-generator-workspace/
 review.html
 questionnaire-generator/index-1.html
+
+# --- 方案输出 ---
+research-plan-generator-workspace/
+research-plan-outputs/
